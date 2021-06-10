@@ -41,6 +41,6 @@ body {
   outline: none;
   background: none;
 }
-#icon:hover {
+.icon:hover {
   fill: red;
 }
