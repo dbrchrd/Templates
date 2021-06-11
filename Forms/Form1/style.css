@@ -14,6 +14,7 @@ body {
 .input-container {
   background: #161B22;
   color: #F0F6FC;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,13 +35,19 @@ body {
 .input-group img {
   height: 40px;
 }
-.input-group input {
+.input {
   color: #F0F6FC;
+  font-size: 30px;
   height: 50px;
   border: none;
   outline: none;
-  background: none;
+  background: transparent;
 }
-.icon:hover {
+svg {
+  /* fill: #F0F6FC; */
   fill: red;
+}
+input:focus svg {
+  /* fill: #58A6FF; */
+  fill: blue;
 }
