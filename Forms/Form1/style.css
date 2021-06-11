@@ -44,10 +44,10 @@ body {
   background: transparent;
 }
 svg {
-  /* fill: #F0F6FC; */
-  fill: red;
+  fill: #F0F6FC;
+  /* fill: red; */
 }
 input:focus svg {
-  /* fill: #58A6FF; */
-  fill: blue;
+  fill: #58A6FF;
+  /* fill: blue; */
 }
