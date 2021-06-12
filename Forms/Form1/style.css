@@ -52,5 +52,6 @@ input:focus svg {
   /* fill: blue; */
 }
 textarea {
-  resize: none;
+  resize: vertical;
+  /* height: 100px; */
 }
