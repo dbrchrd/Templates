@@ -76,3 +76,7 @@ textarea {
   resize: none;
   /* overflow-y: scroll; */
 }
+textarea::-webkit-scrollbar {
+  width: 15px;
+  background-color: #F0F6FC;
+}
