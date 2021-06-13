@@ -80,3 +80,8 @@ textarea::-webkit-scrollbar {
   width: 15px;
   background-color: #F0F6FC;
 }
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #58A6FF;
+}
