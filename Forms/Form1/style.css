@@ -8,7 +8,7 @@
 
 body {
   background: #F0F6FC;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 }
 
 .input-container {
@@ -41,6 +41,7 @@ body {
 .input {
   color: #F0F6FC;
   font-size: 30px;
+  font-family: 'Roboto';
   width: 100%;
   height: 50px;
   border: none;
@@ -55,9 +56,12 @@ input:focus svg {
   fill: #58A6FF;
   /* fill: blue; */
 }
-textarea {
-
-  width: 100%;
-  resize: vertical;
-  /* height: 100px; */
+.ta-group {
+  border: solid 1px #F0F6FC;
+  border-radius: 3px;
+  margin: 5px 0 10px 0;
+}
+.ta-group textarea{
+  height: 300px;
+  /* padding: 10px -10px 10px 10px; */
 }
