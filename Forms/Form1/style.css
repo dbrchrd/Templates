@@ -40,7 +40,7 @@ body {
 }
 .input {
   color: #F0F6FC;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Roboto';
   width: 100%;
   height: 50px;
@@ -55,6 +55,9 @@ svg {
 input:focus svg {
   fill: #58A6FF;
   /* fill: blue; */
+}
+.input-message {
+  font-size: 20px;
 }
 .ta-group {
   border: solid 1px #F0F6FC;
