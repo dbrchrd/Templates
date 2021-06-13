@@ -52,10 +52,13 @@ svg {
   fill: #F0F6FC;
   /* fill: red; */
 }
-input:focus svg {
-  fill: #58A6FF;
-  /* fill: blue; */
+.input:focus .icon {
+  fill: #F33;
 }
+/* input:focus svg {
+  fill: #58A6FF;
+  fill: blue;
+} */
 .input-message {
   font-size: 20px;
 }
