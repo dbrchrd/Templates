@@ -49,8 +49,11 @@ body {
   height: 10%;
 }
 .input-message-container {
+  display: flex;
+  flex-direction: column;
   grid-column: 1/2;
   grid-row: 3 / 4;
+  height: 50%;
 }
 .input-group {
   display: flex;
