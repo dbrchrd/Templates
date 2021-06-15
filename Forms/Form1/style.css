@@ -24,7 +24,6 @@ body {
   grid-template-rows: repeat(4, 1fr);
   padding: 20px;
   border-radius: 3px;
-  transform: scale(1);
 }
 .inp-cont {
   display: flex;
