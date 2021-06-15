@@ -82,6 +82,10 @@ body {
 .submit-button {
   grid-column: 1/2;
   grid-row: 4 / 5;
+  height: 50px;
+  display: flex;
+  position: relative;
+  width: 100%;
 }
 svg {
   fill: #F0F6FC;
