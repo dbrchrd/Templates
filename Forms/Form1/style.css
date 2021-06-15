@@ -42,8 +42,11 @@ body {
   /* height: 10%; */
 }
 .input-mail-container {
+  display: flex;
+  flex-direction: column;
   grid-column: 1/2;
   grid-row: 2 / 3;
+  height: 10%;
 }
 .input-message-container {
   grid-column: 1/2;
