@@ -74,10 +74,13 @@ body {
 }
 .input-group:focus-within {
   /* Animation */
-  fill: red;
   border: 1px solid;
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
+}
+.input-group:focus-within svg {
+  fill: #58A6FF;
+  transition: all .6s ease;
 }
 .input-group svg {
   height: 40px;
@@ -92,7 +95,10 @@ body {
   height: 50px;
   border: none;
   outline: none;
-  background: transparent;
+  background: none;
+}
+.input:active {
+  background: none;
 }
 .submit-button {
   grid-column: 1/2;
@@ -128,9 +134,6 @@ body {
 svg {
   fill: #F0F6FC;
   /* fill: red; */
-}
-.input:focus .icon {
-  fill: #F33;
 }
 /* input:focus svg {
   fill: #58A6FF;
