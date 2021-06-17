@@ -27,7 +27,7 @@ body {
   border-radius: 3px;
 }
 .inp-cont {
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   /* grid-column: 2 / 4; */
   /* grid-row: 1 / 3; */
